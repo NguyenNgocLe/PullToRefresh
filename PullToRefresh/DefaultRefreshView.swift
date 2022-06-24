@@ -16,6 +16,7 @@ class DefaultRefreshView: UIView {
         #else
         let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
         #endif
+        activityIndicator.color = .gray
         self.addSubview(activityIndicator)
         return activityIndicator
     }()
